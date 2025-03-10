@@ -15,7 +15,7 @@ const Filters = () => {
       </button>
 
       {Open && (
-        <div className="fixed inset-0 flex items-center justify-center bg-gray-200 bg-opacity-50">
+        <div className="fixed  flex items-center justify-center bg-gray-200 bg-opacity-50">
           <div className="bg-white w-[400px] md:w-[600px] p-6 rounded-lg shadow-lg">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-xl font-semibold">Filters</h2>
