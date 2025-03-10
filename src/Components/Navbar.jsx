@@ -6,7 +6,7 @@ const Navbar = () => {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
 
     return (
-        <div className="container flex justify-center items-center pt-8">
+        <div className="container flex items-center pt-8">
                     <nav className="fixed w-[56rem] bg-white shadow-md z-50 rounded-4xl">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
